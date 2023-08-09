@@ -1,2 +1,2 @@
 [console_scripts]
-myapplication = simpar_cli.cli:main
+simpar_cli = simpar_cli.cli

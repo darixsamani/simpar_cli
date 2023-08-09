@@ -5,9 +5,13 @@ requires = [
 ]
 build-backend = “setuptools.build_meta”
 
+
+[project.scripts]
+simpar_cli = "simpar_cli:cli"
+
 [project]
 name = "simpar_cli"
-version = "0.0.1"
+version = "0.0.4"
 authors = [
   { name="Darix SAMANI", email="samanidarix@gmail.com" },
 ]

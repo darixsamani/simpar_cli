@@ -9,7 +9,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='simpar_cli',
-    version='0.0.1',
+    version='0.0.4',
     packages=['simpar_cli'],
     # install_requires=[
     #     'numpy', 'argparser', 'matplotlib', 'scikit-image', 'opencv_python'
@@ -50,9 +50,10 @@ setup(
 'six==1.16.0',
 'tifffile==2023.7.18',
 'zipp==3.16.2'],
-    entry_points={
-        'console_scripts': [
-            'myapplication=simpar_cli.cli:main'
-        ]
+
+entry_points={
+    'console_scripts': [
+    'simpar_cli=simpar_cli.cli'
+    ]
     },             
 )
