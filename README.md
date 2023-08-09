@@ -11,14 +11,14 @@ this is cli for a simple paragraph recognition based on the morphology operator
 ## How to Install
 
 ```
-pip install simpar-cli
+pip install simpar_cli
 
 ```
 
 ## How to use
 
 ```
-simpar-cli --image simple_a26.jpg --image_reco simple_a26_r.jpg
+simpar_cli --image simple_a26.jpg --image_reco simple_a26_r.jpg
 ```
 
 

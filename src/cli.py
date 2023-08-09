@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from src.simpar import Simpar
+from simpar_cli.simpar import Simpar
 import argparse
 
 
