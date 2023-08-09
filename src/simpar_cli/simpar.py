@@ -150,11 +150,7 @@ class Simpar:
 
 
 
-def main(im, ii):
 
-
-	simpar = Simpar(im, ii)
-	simpar.simpar()
 
 
 
