@@ -12,3 +12,4 @@ setup.py
 ./src/simpar_cli.egg-info/entry_points.txt
 ./src/simpar_cli.egg-info/requires.txt
 ./src/simpar_cli.egg-info/top_level.txt
+test/test_simpar.py

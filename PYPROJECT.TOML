@@ -7,11 +7,11 @@ build-backend = “setuptools.build_meta”
 
 
 [project.scripts]
-simpar_cli = "simpar_cli:cli"
+simpar_cli = "simpar_cli:main"
 
 [project]
 name = "simpar_cli"
-version = "0.0.4"
+version = "0.0.12"
 authors = [
   { name="Darix SAMANI", email="samanidarix@gmail.com" },
 ]

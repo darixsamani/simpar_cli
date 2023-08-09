@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: simpar-cli
-Version: 0.0.4
+Version: 0.0.12
 Summary: simple cli for paragraphe recognition
 Home-page: https://github.com/darixsamani/simpar_cli
 Author: Darix SAMANI
@@ -32,9 +32,16 @@ pip install simpar_cli
 
 ## How to use
 
+
+```
+python3 -m simpar_cli --image simple_a20.jpg --image_reco reco.jpg
+
+```
+
 ```
 simpar_cli --image simple_a26.jpg --image_reco simple_a26_r.jpg
 ```
+ 
 
 
 ## Next

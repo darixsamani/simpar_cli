@@ -5,26 +5,33 @@ this is cli for a simple paragraph recognition based on the morphology operator
 
 | Image   | MASK Image  | Image recognized  |
 :-------------------------:|:-------------------------:|:-------------------------:|
-|  ![Image](./simple_a26.jpg) | ![Mask](./mask.jpg)   | ![Image recognized](./simple_a26_r.jpg)
+|  ![Image](./img/simple_a26.jpg) | ![Mask](./img/mask.jpg)   | ![Image recognized](./img/simple_a26_r.jpg)
 
 
 ## How to Install
 
 ```
-pip install simpar_cli
+pip install simpar-cli
 
 ```
 
 ## How to use
 
+
 ```
-simpar_cli --image simple_a26.jpg --image_reco simple_a26_r.jpg
+python3 -m simpar_cli --image ./imgsimple_a20.jpg --image_reco ./img/reco.jpg
+
 ```
+
+```
+simpar_cli --image ./img/simple_a26.jpg --image_reco ./img/simple_a26_r.jpg
+```
+ 
 
 
 ## Next
 
-![next](./next.png)
+![next](./img/next.png)
 
 ### Francais
   Nous faisons une reconnaissance de paragraphe basée sur une les opération morphologiques qui est une
