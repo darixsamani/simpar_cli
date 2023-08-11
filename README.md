@@ -5,7 +5,7 @@ this is cli for a simple paragraph recognition based on the morphology operator
 
 | Image   | MASK Image  | Image recognized  |
 :-------------------------:|:-------------------------:|:-------------------------:|
-|  ![Image](./img/simple_a26.jpg) | ![Mask](./img/mask.jpg)   | ![Image recognized](./img/simple_a26_r.jpg)
+|  ![Image](https://raw.githubusercontent.com/darixsamani/simpar_cli/main/img/simple_a26.jpg) | ![Mask](https://raw.githubusercontent.com/darixsamani/simpar_cli/main/img/mask.jpg)   | ![Image recognized](https://raw.githubusercontent.com/darixsamani/simpar_cli/main/img/simple_a26_r.jpg)
 
 
 ## How to Install
@@ -31,7 +31,7 @@ simpar_cli --image ./img/simple_a26.jpg --image_reco ./img/simple_a26_r.jpg
 
 ## Next
 
-![next](./img/next.png)
+![next](https://raw.githubusercontent.com/darixsamani/simpar_cli/main/img/next.png)
 
 ### Francais
   Nous faisons une reconnaissance de paragraphe basée sur une les opération morphologiques qui est une
