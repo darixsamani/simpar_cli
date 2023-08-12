@@ -20,13 +20,13 @@ this is cli for a simple paragraph recognition based on the morphology operator
 
 | Image   | MASK Image  | Image recognized  |
 :-------------------------:|:-------------------------:|:-------------------------:|
-|  ![Image](./simple_a26.jpg) | ![Mask](./mask.jpg)   | ![Image recognized](./simple_a26_r.jpg)
+|  ![Image](https://raw.githubusercontent.com/darixsamani/simpar_cli/main/img/simple_a26.jpg) | ![Mask](https://raw.githubusercontent.com/darixsamani/simpar_cli/main/img/mask.jpg)   | ![Image recognized](https://raw.githubusercontent.com/darixsamani/simpar_cli/main/img/simple_a26_r.jpg)
 
 
 ## How to Install
 
 ```
-pip install simpar_cli
+pip install simpar-cli
 
 ```
 
@@ -34,19 +34,19 @@ pip install simpar_cli
 
 
 ```
-python3 -m simpar_cli --image simple_a20.jpg --image_reco reco.jpg
+python3 -m simpar_cli --image ./imgsimple_a20.jpg --image_reco ./img/reco.jpg
 
 ```
 
 ```
-simpar_cli --image simple_a26.jpg --image_reco simple_a26_r.jpg
+simpar_cli --image ./img/simple_a26.jpg --image_reco ./img/simple_a26_r.jpg
 ```
  
 
 
 ## Next
 
-![next](./next.png)
+![next](https://raw.githubusercontent.com/darixsamani/simpar_cli/main/img/next.png)
 
 ### Francais
   Nous faisons une reconnaissance de paragraphe basée sur une les opération morphologiques qui est une
