@@ -1,0 +1,20 @@
+[project]
+name = "simpar-cli"
+version = "0.1.0"
+description = "simple cli for paragraphe recognition"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "matplotlib>=3.10.3",
+    "numpy>=2.2.6",
+    "opencv-python>=4.12.0.88",
+    "scikit-image>=0.25.2",
+    "typer>=0.16.0",
+]
+
+[project.scripts]
+simpar-cli = "simpar_cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
