@@ -19,12 +19,12 @@ pip install simpar-cli
 
 
 ```
-python3 -m simpar_cli --image ./imgsimple_a20.jpg --image_reco ./img/reco.jpg
+uv run simpar_cli/main.py ./img/simple_a20.jpg
 
 ```
 
 ```
-simpar_cli --image ./img/simple_a26.jpg --image_reco ./img/simple_a26_r.jpg
+uv run simpar_cli/main.py ./img/simple_a20.jpg ouput.png
 ```
  
 
