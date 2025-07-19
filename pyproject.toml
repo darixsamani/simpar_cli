@@ -13,7 +13,7 @@ dependencies = [
 ]
 
 [project.scripts]
-simpar-cli = "simpar_cli:main"
+simpar_cli = "simpar_cli:main"
 
 [build-system]
 requires = ["hatchling"]
